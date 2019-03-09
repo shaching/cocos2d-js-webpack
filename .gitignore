@@ -1,3 +1,10 @@
+.idea/
+.vscode/
+dist/
+publish/
+yarn.lock
+package-lock.json
+
 # Logs
 logs
 *.log
