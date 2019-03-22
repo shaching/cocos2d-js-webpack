@@ -2,7 +2,7 @@ import { res } from '@/resource';
 
 const HelloWorldLayer = cc.Layer.extend({
   sprite: null,
-  ctor: () => {
+  ctor() {
     // 1. super init first
     this._super();
 
