@@ -12,7 +12,8 @@
     "modules" : ["cocos2d"],
 
     "jsList" : [
-        "src/resource.js",
-        "src/app.js"
+        "publish/main.js",
+        "publish/common.js",
+        "publish/vendor.js"
     ]
 }
