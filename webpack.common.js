@@ -5,7 +5,7 @@ const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
 
 module.exports = {
   entry: {
-    main: ['@babel/polyfill', './main.js'],
+    main: ['@babel/polyfill', './src/main.js'],
   },
   output: {
     path: path.resolve(__dirname, 'publish'),
