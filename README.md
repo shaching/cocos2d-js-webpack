@@ -39,3 +39,4 @@ yarn lint
 ```
 
 # 5. See report.html in publish folder.
+![report](https://github.com/shaching/cocos2d-js-webpack/blob/master/report.png)
