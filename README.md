@@ -37,3 +37,5 @@ or
 yarn install
 yarn lint
 ```
+
+# 5. See report.html in publish folder.
