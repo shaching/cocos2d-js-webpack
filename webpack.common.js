@@ -2,6 +2,7 @@
 const path = require('path');
 const FileManagerPlugin = require('filemanager-webpack-plugin');
 const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
+const { isProduction } = require('webpack-mode');
 
 module.exports = {
   entry: {
@@ -41,6 +42,7 @@ module.exports = {
             options: {
               name: '[hash].[ext]',
               outputPath: 'assets',
+              publicPath: isProduction ? 'assets' : 'publish/assets',
             },
           },
         ],

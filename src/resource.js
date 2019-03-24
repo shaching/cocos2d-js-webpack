@@ -6,8 +6,8 @@ const res = {
 
 const gResources = [];
 
-for (let i = 0; res.length; i += 1) {
-  gResources.push(res[i]);
-}
+Object.keys(res).forEach((key) => {
+  gResources.push(res[key]);
+});
 
 export { res, gResources };

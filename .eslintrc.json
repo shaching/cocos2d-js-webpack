@@ -21,7 +21,9 @@
   ],
   "globals": {
     "cc": true,
-    "cp": true
+    "cp": true,
+    "ccui": true,
+    "ccs": true
   },
   "settings": {
     "import/resolver": {
