@@ -2,6 +2,8 @@
 Develop Cocos2d-js with Modern Web Way. You can use ES6+ syntax, npm libraries and Node Http Server. The Webpack4 and Babel7 are also worked together.
 
 # 1. Remember install cocos2d-x SDK and Apache Ant first.
+* cocos2d-x-3.17.1
+* apache-ant-1.10.5-bin
 
 # 2. Development Build
 ```
