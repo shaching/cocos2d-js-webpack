@@ -1,5 +1,5 @@
 # cocos2d-js-webpack
-Develop Cocos2d-js with Modern Web Way. You can use ES6+ syntax, npm libraries and Node Http Server. The Webpack4 and Babel7 are also worked together.
+Develop Cocos2d-js with modern web way. You can use ES6+ syntax, npm libraries and Node Koa2 http server. The Webpack4 and Babel7 are also worked together. And Eslint, Prettier, Airbnb Code Style will auto check quality.
 
 # 1. Remember install cocos2d-x SDK and Apache Ant first.
 * cocos2d-x-3.17.1
