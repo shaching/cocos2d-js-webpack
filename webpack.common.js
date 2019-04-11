@@ -6,7 +6,7 @@ const { isProduction } = require('webpack-mode');
 
 module.exports = {
   entry: {
-    main: ['@babel/polyfill', './src/main.js'],
+    main: ['@babel/polyfill/noConflict', './src/main.js'],
   },
   output: {
     path: path.resolve(__dirname, 'publish'),
